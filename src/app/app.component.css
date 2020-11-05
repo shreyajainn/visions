@@ -1,0 +1,28 @@
+.container{
+    height: 100%;
+    width:100%;
+}
+.child{
+    width: 95%;
+    background-color:beige;
+    margin: 10% auto 2px auto;
+    padding:30px;
+    text-align: center;
+    border: 3px solid black ;
+    border-radius: 20px;
+
+}
+.child2{
+    width: 95%;
+    height:auto;
+    background-color:beige;
+    margin: 5% auto 20% auto;
+    padding:auto;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.child button
+{
+    margin-top: 20px;
+}

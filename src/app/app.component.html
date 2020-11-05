@@ -1,0 +1,14 @@
+<div class = "container">
+  <div class ="child">
+    <h2>User id</h2>
+    <input type = "text" id = "sid" name="sid" #sid>
+    <div>
+  <button type = "button" id="fs"  (click) = "findSupervisor(sid)">Click here to know whom you report</button>
+    </div>
+  </div>
+  <div class ="child2">
+    <div *ngFor="let item of parr" >
+      Reports to {{ item }}
+  </div>
+  </div>
+</div>
